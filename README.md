@@ -1,4 +1,4 @@
 
 # minimal-emacs
-minimal emacs config
-# try emacs-init-time after loading
+emacs -q --load /path/to/minimal-init.el 
+try emacs-init-time after loading
