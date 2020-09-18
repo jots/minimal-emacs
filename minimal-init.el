@@ -5,7 +5,7 @@
 ;; toggle full screen
 (global-set-key (kbd "<f11>") 'toggle-frame-fullscreen)
 
-(global-set-key (kbd "C-r") 'buffer-menu-other-window)
+(global-set-key (kbd "C-o") 'buffer-menu-other-window)
 
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
@@ -22,8 +22,8 @@
 
 (setq inhibit-startup-message t)
 (setq column-number-mode t)
-(tool-bar-mode -1)
-(scroll-bar-mode -1)
+;;(tool-bar-mode -1)
+;;(scroll-bar-mode -1)
 (global-set-key (kbd "<f5>") 'revert-buffer)
 (defalias 'list-buffers 'ibuffer)
 
